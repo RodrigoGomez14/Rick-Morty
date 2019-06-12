@@ -18,7 +18,7 @@ function cardTemplate(personaje) {
         badgeLife = "badge-secondary"
     }
     return `
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
         <div class="card mb-2" style="width: 18rem;">
             <img src="${personaje.image}" height="250px" class="card-img-top" alt="...">
             <div class="card-body">

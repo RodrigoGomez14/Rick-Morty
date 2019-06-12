@@ -9,6 +9,9 @@ body{
     height: 100%;
     object-fit: cover
 }
+.navbar img{
+    object-fit: contain
+}
 .overlay{
     position: absolute;
     top: 0;
@@ -60,6 +63,9 @@ body{
     align-items: center;
     justify-content: center;
     color: white 
+}
+.pagination ul{
+    flex-wrap: wrap
 }
 .card{
     animation-name: card;
