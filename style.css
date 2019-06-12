@@ -61,6 +61,20 @@ body{
     justify-content: center;
     color: white 
 }
+.card{
+    animation-name: card;
+    animation-duration: 1s
+}
+@keyframes card{
+    from{
+        transform: scale(0);
+        opacity: 0
+    }
+    to{
+        opacity: 1;
+        transform: scale(1)
+    }
+}
 .card-img-top{
     object-fit: cover
 }
